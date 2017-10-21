@@ -1,0 +1,140 @@
+:root {
+  --accent: #4285F4;
+}
+
+::selection {
+  background: #4285F4;
+}
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #343434;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #fff;
+  font-family: 'Roboto-Regular', sans-serif;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  line-height: 1.5;
+  text-decoration: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  box-shadow: 0 -0.3em 0 var(--accent) inset;
+  transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+}
+
+p {
+  margin: 30px 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Roboto-Regular', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.content h1.intro {
+  font-size: 34px;
+  color: var(--accent);
+  font-family: 'DisplayType', 'Roboto-Regular', sans-serif;
+}
+
+.content {
+  display: block;
+  margin: 0 auto;
+  max-width: 750px;
+  padding-top: 50px;
+}
+
+.content h1 {
+  color: #2f2f2f;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+  font-family: 'DisplayType', 'Roboto-Regular', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.content p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Roboto-Regular', sans-serif;
+}
+
+.content ul {
+  padding-top: 20px;
+}
+
+.content ul li {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  list-style-type: none;
+  font-family: 'Roboto-Regular', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+p.social {
+  font-size: 14px;
+  color: #EA4335;
+}
+
+.underline {
+  border-bottom: 1px solid var(--accent);
+}
+
+span {
+  font-size: 10px;
+}
+
+/* FONTS */
+
+@font-face {
+  font-family: 'DisplayType';
+  src: url('../assets/fonts/DisplayType.woff');
+  local('DisplayType'),
+  url('../assets/fonts/DisplayType.woff')
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../assets/fonts/Roboto-Regular.ttf');
+  local('Roboto-Regular'),
+  url('../assets/fonts/Roboto-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../assets/fonts/Roboto-Medium.ttf');
+  local('Roboto-Medium'),
+  url('../assets/fonts/Roboto-Medium.ttf')
+}
+
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url('../assets/fonts/Roboto-Italic.ttf');
+  local('Roboto-Italic'),
+  url('../assets/fonts/Roboto-Italic.ttf')
+}
