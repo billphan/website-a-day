@@ -1,0 +1,78 @@
+/* MEDIA QUERIES */
+
+/* Viewports smaller than 720px */
+@media screen and (max-width:720px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .content {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px 20px;
+    /*margin-top: 50px;*/
+    /*margin-bottom: 50px;*/
+  }
+
+  .content h1, .content h1 a {
+    font-size: 18px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .content p {
+    width: 100%;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .content ul, .content ul li {
+    font-size: 16px;
+    list-style-type: none;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  p.intro {
+    font-size: 28px;
+  }
+
+  h1.email-link a {
+    font-size: 24px;
+  }
+
+  p.social a {
+    font-size: 16px;
+  }
+}
+
+/* Viewports smaller than 650px */
+@media screen and (max-width: 650px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+/* iPad Landscape Orientation Media Query Smaller than 768px; */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
